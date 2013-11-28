@@ -1,8 +1,8 @@
 module Soccer
   module Foul
-    DELIBERATE = :Intentional
-    ACCIDENTIAL = :Accidential
-    VIOLENT = :Violent
+    DELIBERATE = :deliberate
+    ACCIDENTIAL = :accidential
+    VIOLENT = :violent
 
     module BaseFoul
       def self.included(base)
